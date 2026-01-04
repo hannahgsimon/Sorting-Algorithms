@@ -42,7 +42,7 @@ This project implements and applies multiple **sorting algorithms** in Java, inc
   - Student GPAs are sorted using recursive merge sort
   - Faculty course loads are sorted using insertion sort
 - Both `Student` and `Faculty` implement the `Comparable` interface, allowing flexible and reusable sorting logic.
-- An optional hidden mode (input -1) populates the system with sample data to allow immediate testing without manual input.
+- An optional hidden mode (input `-1`) populates the system with sample data to allow immediate testing without manual input.
 
 ---
 
