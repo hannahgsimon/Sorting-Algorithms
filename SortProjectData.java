@@ -1,4 +1,4 @@
-package project_sortingalgorithms;
+package sortingalgorithmsapp;
 
 /**
  *
@@ -10,3 +10,4 @@ public interface SortProjectData
     public String getName();
     public int getID();
 }
+
