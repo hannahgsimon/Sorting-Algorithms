@@ -1,25 +1,68 @@
-The program has the following menu options:  
-1- Author Info  
-2- Add Student  
-3- Add Faculty  
-4- Sort by ID (selection sort)  
-5- Sort by ID (radix sort)  
-6- Sort Students by GPA (merge sort)  
-7- Sort Faculty by course load (insertion sort)  
-8- Print data  
-0- Exit  
+# Sorting Algorithms in Java
 
-Where:  
-1 prints the program author info  
-2 allows the user to enter new student data, including name, ID, and GPA  
-3 allows the user to enter new faculty data, including name, ID, and course load  
-4 asks the user to pick faculty or students, then sorts the entered data of the chosen type in ascending order by ID value using selection sort  
-5 asks the user to pick faculty or students, then sorts the entered data of the chosen type in descending order by ID value, using radix sort  
-6 sorts the students by GPA in ascending order, using merge sort  
-7 sorts the faculty by course load in ascending order, using insertion sort  
-8 prints all student and faculty data  
-0 exits the program  
-  
-The code also provides an extra "hidden" menu option -1, if the user select this option the student and faculty data will be filled with sample data.  
+This project implements and applies multiple **sorting algorithms** in Java, including **selection sort, radix sort, merge sort (recursive), and insertion sort**. The algorithms are used to sort real-world data models (students and faculty) based on different attributes, demonstrating both algorithmic understanding and object-oriented design.
 
-The Faculty and Student classes implement the Comparable interface.
+---
+
+## ✨ Features
+- Selection sort for ascending ID ordering
+- Radix sort for descending ID ordering
+- Recursive merge sort for GPA-based sorting
+- Insertion sort for workload-based sorting
+- Custom comparison logic using `Comparable`
+- Menu-driven console interface for interactive testing
+- Optional sample data generation for quick evaluation
+
+---
+
+## 🛠️ Technologies Used
+- Java
+- Object-Oriented Programming
+- Comparable interface
+- Recursive algorithms
+
+---
+
+## 📁 Project Structure
+```bash
+.
+├── SortingAlgorithms.java      # Main driver program
+├── SortMethods.java            # Sorting algorithm implementations
+├── SortProjectData.java        # Data management and coordination
+├── Student.java                # Student data model (implements Comparable)
+├── Faculty.java                # Faculty data model (implements Comparable)
+└── README.md
+```
+
+---
+
+## ⚙️ How It Works
+- The program manages two data sets, students and faculty, and applies different sorting strategies depending on the data type and attribute:
+  - IDs can be sorted using selection sort or radix sort
+  - Student GPAs are sorted using recursive merge sort
+  - Faculty course loads are sorted using insertion sort
+- Both `Student` and `Faculty` implement the `Comparable` interface, allowing flexible and reusable sorting logic.
+- An optional hidden mode (input -1) populates the system with sample data to allow immediate testing without manual input.
+
+---
+
+## 🧪 Build & Run
+Compile all files:
+```bash
+javac *.java
+```
+
+Run the program:
+```bash
+java Sorting-Algorithms
+```
+
+---
+
+## 📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+## 👤 Author
+Hannah G. Simon
