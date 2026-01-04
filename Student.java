@@ -1,4 +1,4 @@
-package project_sortingalgorithms;
+package sortingalgorithmsapp;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -122,3 +122,4 @@ public class Student implements Comparable<Student>, SortProjectData
     }
     
 }
+
