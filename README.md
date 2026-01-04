@@ -54,7 +54,7 @@ javac *.java
 
 Run the program:
 ```bash
-java Sorting-Algorithms
+java SortingAlgorithmsApp
 ```
 
 ---
