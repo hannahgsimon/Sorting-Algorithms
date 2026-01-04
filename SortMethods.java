@@ -1,4 +1,4 @@
-package project_sortingalgorithms;
+package sortingalgorithmsapp;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Collections;
@@ -251,3 +251,4 @@ public class SortMethods<T extends Comparable & SortProjectData>
     }  
 
 }
+
