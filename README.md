@@ -26,7 +26,7 @@ This project implements and applies multiple **sorting algorithms** in Java, inc
 ## 📁 Project Structure
 ```bash
 .
-├── SortingAlgorithms.java      # Main driver program
+├── SortingAlgorithmsApp.java   # Main driver program
 ├── SortMethods.java            # Sorting algorithm implementations
 ├── SortProjectData.java        # Data management and coordination
 ├── Student.java                # Student data model (implements Comparable)
