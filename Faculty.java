@@ -1,4 +1,4 @@
-package project_sortingalgorithms;
+package sortingalgorithmsapp;
 
 /**
  *
@@ -56,3 +56,4 @@ public class Faculty implements Comparable<Faculty>, SortProjectData
         return(name);
     }
 }
+
