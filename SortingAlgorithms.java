@@ -1,4 +1,4 @@
-package sortingalgorithms;
+package sortingalgorithmsapp;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.InputMismatchException;
@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author hannahgsimon
  */
 
-public class SortingAlgorithms
+public class SortingAlgorithmsApp
 {
     public static void main(String[] args)
     {
@@ -273,4 +273,5 @@ public class SortingAlgorithms
     }
     
 }
+
 
